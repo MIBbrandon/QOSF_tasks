@@ -40,7 +40,7 @@ already knows that the H gate can be decomposed into RX(pi) and RY(pi/2), for ex
 to the RY gate, we can directly map the qubit from |0> to |+> (aka |0>+|1>) or |-> (aka |0>-|1>), so we don't need all 
 of the properties of the Hadamard gate (such as the involutory property) to achieve our desired goal, just the fact that 
 it makes our first qubit be |0> or |1> 50% of the time each at measurement (since it is the control qubit, the state of
-the qubit is not affected by the CNOT. So the first qubit will only have an RY gate before it reaches the CNOT and then 
+the qubit is not affected by the CNOT). So the first qubit will only have an RY gate before it reaches the CNOT and then 
 finally measurement.
 
 Now, with just an RY gate shifting the phase of the first qubit by either pi/2 or 3*pi/2 and running both qubits through 
